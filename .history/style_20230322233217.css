@@ -2,14 +2,15 @@
 
 .logo {
     display: flex;
-flex-direction: row;
-align-items: center;
-padding: 10px 12px;
+    flex-direction: row;
+    justify-items: flex-start;
+    padding: 8px;
 
-position: absolute;
-width: 48px;
-height: 48px;
-left: 12px;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 18px;
+    border-radius: 8px;
 }
 
 .Normal-Button {
@@ -22,7 +23,9 @@ left: 12px;
     width: 40px;
     height: 40px;
     right: 24px;
-    border-radius: 8px;
+
+
+border-radius: 8px;
 }
 
 .header-illustration-mobile {
@@ -45,7 +48,7 @@ left: 12px;
     left: 27px;
     top: 156px;
 
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
@@ -69,7 +72,6 @@ left: 12px;
 }
 
 .social-media-icons {
-    
     position: absolute;
     width: 170.17px;
     height: 19.62px;
@@ -77,8 +79,9 @@ left: 12px;
     top: 568.89px;
 }
 
-.social-media-icon {
-    padding: 10px 5px;
+headline-bottom {
+    
+    justify-content: space-between;
 }
 
 .color1 {
