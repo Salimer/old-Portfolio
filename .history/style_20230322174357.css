@@ -1,10 +1,6 @@
 header {
     display: flex;
-    
-}
-
-.nav {
-    flex-direction: ;
+    justify-content: center;
 }
 
 body {
