@@ -89,8 +89,6 @@ To get a local copy up and running, follow these steps:
 - Make modifications as peferred 
 
 
-""
-
 ### Prerequisites
 
 In order to run this project you need:
