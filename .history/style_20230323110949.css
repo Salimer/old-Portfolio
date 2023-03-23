@@ -1,13 +1,13 @@
 
-.logo {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 10px 12px;
-  position: absolute;
-  width: 48px;
-  height: 48px;
-  left: 12px;
+.logo {  
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 12px;
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 12px;
 }
 
 .Normal-Button {
@@ -30,9 +30,12 @@
     top: 92.8px;
 }
 
-.headline { text-align: center; }
+.headline {
+    
+    text-align: center;
+}
 
-.Primary { 
+.Primary {
     position: absolute;
     width: 327px;
     height: 211px;
@@ -42,7 +45,7 @@
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
-    line-height: 52px; 
+    line-height: 52px;
 }
 
 .Supporting-Text {
