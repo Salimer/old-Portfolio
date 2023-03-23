@@ -1,14 +1,14 @@
 
 .logo {
-    display: flex;  
-    flex-direction: row;
-    align-items: center;
-    padding: 10px 12px;
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 10px 12px;
 
-    position: absolute;
-    width: 48px;
-    height: 48px;
-    left: 12px;
+position: absolute;
+width: 48px;
+height: 48px;
+left: 12px;
 }
 
 .Normal-Button {
