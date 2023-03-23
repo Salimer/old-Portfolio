@@ -1,0 +1,40 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.headline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 10px;
+    background-image: url("assets/headline-background.svg");
+    background-size: cover;
+    text-align: center;
+}
+
+headline-bottom {
+    
+    justify-content: space-between;
+}
+
+.color1 {
+    color: #36B37E;
+}
+
+.color2 {
+    color: #C5E9DA;
+}
+
+.color3 {
+    color: #EBF0EE;
+}
+
+.color4 {
+    color: #172B4D;
+}
+
+.color5 {
+    color: #FFFFFF;
+}
