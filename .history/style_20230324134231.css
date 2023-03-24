@@ -47,6 +47,7 @@ li {
   background-repeat: no-repeat;
   background-size: cover;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
 }
 
@@ -58,20 +59,8 @@ li {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 45px;
+  font-size: 40px;
   line-height: 52px;
-}
-
-.Supporting-Text {
-  width: 327px;
-  height: 164px;
-  top: 382px;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 28px;
-  text-align: center;
 }
 
 .social-media-icons {
@@ -85,6 +74,8 @@ li {
   display: inline-block;
   padding: 5px;
 }
+
+
 
 /* Works */
 .works {
@@ -108,12 +99,24 @@ li {
   padding-bottom: 62px;
 }
 
+.Supporting-Text {
+  width: 327px;
+  height: 164px;
+  top: 382px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+}
+
 .grid-container {
   display: grid;
-  background-color: #ebf0ee;
+  background-color:#ebf0ee;
   border-radius: 8px;
   margin: 10px;
-  border: 1px solid #c1c7d0;
+  border: 1px solid #C1C7D0;
 }
 
 .grid-container div {
@@ -132,7 +135,7 @@ li {
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
-  background-color: #fff;
+  background-color:#fff;
   border-radius: 8px;
 }
 
@@ -151,7 +154,6 @@ li {
   flex-direction: row;
   flex-wrap: wrap;
   gap: 5px;
-  justify-content: center;
 }
 
 .grey-button {
@@ -174,12 +176,12 @@ li {
   padding: 15px 32px;
   text-align: center;
   font-size: 17px;
-  margin: 40px 0 10px 0;
+  margin: 40px 0px 10px 0px;
   cursor: pointer;
   border-radius: 4px;
 }
 
-/* about me */
+/*about me*/
 .About-me {
   display: flex;
   flex-direction: column;
@@ -189,20 +191,20 @@ li {
   background-size: cover;
 }
 
-/* skill cards */
+/*skill cards*/
 .Languages-Frameworks-skills {
   display: flex;
   flex-direction: column;
   text-align: center;
+  background-color:#ebf0ee;
+  padding: 1px;
+  border-radius: 8px;
   margin: 10px;
 }
 
 .skill-card {
-  border: 1px solid #c1c7d0;
+  border: 1px solid #C1C7D0;
   border-radius: 8px;
-  margin-bottom: 30px;
-  background-color: #ebf0ee;
-  padding: 1px;
 }
 
 .skill-image {
@@ -213,6 +215,7 @@ li {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-size: 30px;
+  
 }
 
 .skill-technologies {
@@ -234,10 +237,8 @@ li {
   font-family: 'Inter', sans-serif;
   font-weight: 600;
   font-size: 12px;
-  margin-top: 8px;
-  margin-left: 4px;
-  margin-right: 4px;
-  border-radius: 8px;
+  margin: 4px 2px;
+  border-radius: 4px;
 }
 
 .color1 { color: #36b37e; }

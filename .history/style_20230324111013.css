@@ -9,10 +9,6 @@ li {
   margin: 0;
 }
 
-.space {
-  padding-bottom: 100px;
-}
-
 /* Header */
 .header {
   display: flex;
@@ -47,6 +43,7 @@ li {
   background-repeat: no-repeat;
   background-size: cover;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
 }
 
@@ -58,20 +55,8 @@ li {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 45px;
+  font-size: 40px;
   line-height: 52px;
-}
-
-.Supporting-Text {
-  width: 327px;
-  height: 164px;
-  top: 382px;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 28px;
-  text-align: center;
 }
 
 .social-media-icons {
@@ -84,6 +69,10 @@ li {
 .social-media-icons li {
   display: inline-block;
   padding: 5px;
+}
+
+.space {
+  padding: 100px
 }
 
 /* Works */
@@ -105,15 +94,28 @@ li {
 }
 
 .works-indicator {
-  padding-bottom: 62px;
+  padding-bottom: 150px;
+}
+
+.Supporting-Text {
+  width: 327px;
+  height: 164px;
+  top: 382px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
 }
 
 .grid-container {
   display: grid;
-  background-color: #ebf0ee;
+  gap: 0px;
+  background-color:#ebf0ee;
+  padding: 1px;
   border-radius: 8px;
   margin: 10px;
-  border: 1px solid #c1c7d0;
 }
 
 .grid-container div {
@@ -125,6 +127,7 @@ li {
 .card-top-half {
   background-color: #ebf0ee;
   height: 400px;
+  color:red;
   border-radius: 8px;
 }
 
@@ -132,7 +135,7 @@ li {
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
-  background-color: #fff;
+  background-color:#fff;
   border-radius: 8px;
 }
 
@@ -151,7 +154,6 @@ li {
   flex-direction: row;
   flex-wrap: wrap;
   gap: 5px;
-  justify-content: center;
 }
 
 .grey-button {
@@ -174,70 +176,15 @@ li {
   padding: 15px 32px;
   text-align: center;
   font-size: 17px;
-  margin: 40px 0 10px 0;
+  margin: 40px 0px 10px 0px;
   cursor: pointer;
   border-radius: 4px;
 }
 
-/* about me */
 .About-me {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url("Assets/aboutme-background.svg");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-/* skill cards */
-.Languages-Frameworks-skills {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  margin: 10px;
-}
-
-.skill-card {
-  border: 1px solid #c1c7d0;
-  border-radius: 8px;
-  margin-bottom: 30px;
-  background-color: #ebf0ee;
-  padding: 1px;
-}
-
-.skill-image {
-  padding-top: 40px;
-}
-
-.skill-card-title {
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-size: 30px;
-}
-
-.skill-technologies {
-  display: flex;
-  list-style: none;
-  flex-direction: row;
-  flex-wrap: wrap;
-  gap: 5px;
-  justify-content: center;
-  padding-bottom: 80px;
-}
-
-.skill-button {
-  background-color: #fff;
-  border: none;
-  color: #36b37e;
-  padding: 15px 32px;
-  text-align: center;
-  font-family: 'Inter', sans-serif;
-  font-weight: 600;
-  font-size: 12px;
-  margin-top: 8px;
-  margin-left: 4px;
-  margin-right: 4px;
-  border-radius: 8px;
 }
 
 .color1 { color: #36b37e; }
