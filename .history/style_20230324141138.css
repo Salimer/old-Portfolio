@@ -155,7 +155,6 @@ li {
   flex-direction: row;
   flex-wrap: wrap;
   gap: 5px;
-  justify-content: center;
 }
 
 .grey-button {
