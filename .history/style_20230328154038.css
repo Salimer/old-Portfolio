@@ -261,10 +261,14 @@ li {
   flex-direction: column;
   align-items: center;
   width: 100%;
+  padding-left: 24px;
+  padding-right: 30px;
 }
 
 form {
-  width: 90%;
+    /* Form outline */
+  width: 100%;
+  border: 1px solid black;
 }
 
 .contact-me-button-li {
@@ -289,7 +293,8 @@ label {
   text-align: right;
 }
 
-input {
+input,
+textarea {
   font: 1em sans-serif;
   font-style: italic;
   padding: 15px;
@@ -299,24 +304,14 @@ input {
   border-radius: 4px;
 }
 
-textarea {
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  padding: 15px;
-  width: 100%;
-  box-sizing: border-box;
-  border: 1px solid #999;
-  border-radius: 4px;
-  vertical-align: top;
-  height: 5em;
-}
-::placeholder {
-  color: #6b778c;
+input:focus,
+textarea:focus {
+  border-color: blue;
 }
 
-textarea::placeholder {
-  font-size: 15px;
-  color: #42526e;
+textarea {
+  vertical-align: top;
+  height: 5em;
 }
 
 .button {

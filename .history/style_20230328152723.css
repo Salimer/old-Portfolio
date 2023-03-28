@@ -76,6 +76,9 @@ li {
 
 .social-media-icons {
   list-style: none;
+  width: 170.17px;
+  height: 19.62px;
+  top: 568.89px;
 }
 
 .social-media-icons li {
@@ -261,10 +264,14 @@ li {
   flex-direction: column;
   align-items: center;
   width: 100%;
+  padding-left: 24px;
+  padding-right: 30px;
 }
 
 form {
-  width: 90%;
+    /* Form outline */
+  width: 100%;
+  border: 1px solid black;
 }
 
 .contact-me-button-li {
@@ -284,46 +291,51 @@ form li + li {
 }
 
 label {
+  /* Uniform size & alignment */
   display: inline-block;
   width: 90px;
   text-align: right;
 }
 
-input {
-  font: 1em sans-serif;
-  font-style: italic;
-  padding: 15px;
-  width: 100%;
-  box-sizing: border-box;
-  border: 1px solid #999;
-  border-radius: 4px;
+input,
+textarea {
+/* To make sure that all text fields have the same font settings
+   By default, textareas have a monospace font */
+font: 1em sans-serif;
+font-style: italic;
+padding: 15px;
+
+/* Uniform text field size */
+width: 100%;
+box-sizing: border-box;
+
+/* Match form field borders */
+border: 1px solid #999;
+border-radius: 4px;
+}
+
+input:focus,
+textarea:focus {
+/* Additional highlight for focused elements */
+border-color: blue;
 }
 
 textarea {
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  padding: 15px;
-  width: 100%;
-  box-sizing: border-box;
-  border: 1px solid #999;
-  border-radius: 4px;
+  /* Align multiline text fields with their labels */
   vertical-align: top;
-  height: 5em;
-}
-::placeholder {
-  color: #6b778c;
-}
 
-textarea::placeholder {
-  font-size: 15px;
-  color: #42526e;
+  /* Provide space to type some text */
+  height: 5em;
 }
 
 .button {
-  padding-left: 90px; 
+  /* Align buttons with the text fields */
+  padding-left: 90px; /* same size as the label elements */
 }
 
 button {
+  /* This extra margin represent roughly the same space as the space
+     between the labels and their text fields */
   margin-left: 0.5em;
 }
 
@@ -352,11 +364,9 @@ button {
 
 /* footer */
 footer {
-  height: 65px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  padding-bottom: 45px;
 }
 
 .color1 { color: #36b37e; }
