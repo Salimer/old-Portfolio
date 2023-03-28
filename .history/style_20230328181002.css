@@ -74,10 +74,6 @@ ul {
   list-style: none;
 }
 
-form li + li {
-  margin-top: 24px;
-}
-
 .social-media-icons li {
   display: inline-block;
   padding: 5px;
@@ -184,9 +180,8 @@ form li + li {
   background-image: url("Assets/aboutme-top.svg");
   background-repeat: no-repeat;
   background-position-x: right;
-  background-position-y: top;
+  background-position-y: top;  
 }
-
 .about-me-button {
   display: flex;
   justify-content: center;
@@ -257,7 +252,7 @@ form li + li {
   background-image: url("Assets/footerBackground.svg");
   background-repeat: no-repeat;
   background-position-x: right;
-  background-position-y: bottom;
+  background-position-y: bottom ;
 }
 
 .contact-me-title {
@@ -288,6 +283,10 @@ form {
   align-items: center;
 }
 
+form li + li {
+  margin-top: 24px;
+}
+
 label {
   display: inline-block;
   width: 90px;
@@ -300,7 +299,7 @@ input {
   padding: 15px;
   width: 100%;
   box-sizing: border-box;
-  border: 1px solid #d0d9d4;
+  border: 1px solid #999;
   border-radius: 4px;
 }
 
@@ -310,12 +309,11 @@ textarea {
   padding: 15px;
   width: 100%;
   box-sizing: border-box;
-  border: 1px solid #60c095;
+  border: 1px solid #999;
   border-radius: 4px;
   vertical-align: top;
   min-height: 114px;
 }
-
 ::placeholder {
   color: #6b778c;
 }
@@ -326,11 +324,11 @@ textarea::placeholder {
 }
 
 .button {
-  padding-left: 90px;
+  padding-left: 90px; 
 }
 
 .email {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -363,12 +361,11 @@ footer {
 }
 
 button:hover {
-  background-color: #36b37f;
-  box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
+  background-color: #36B37F;
 }
 
 button:enabled {
-  background-color: #36b37e;
+  background-color: ;
 }
 
 button:active {
@@ -386,3 +383,4 @@ button:active {
 .color5 { color: #fff; }
 
 .bg-color1 { background-color: #36b37e; }
+

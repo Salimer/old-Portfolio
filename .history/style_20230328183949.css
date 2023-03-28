@@ -300,7 +300,7 @@ input {
   padding: 15px;
   width: 100%;
   box-sizing: border-box;
-  border: 1px solid #d0d9d4;
+  border: 1px solid #D0D9D4;
   border-radius: 4px;
 }
 
@@ -310,7 +310,7 @@ textarea {
   padding: 15px;
   width: 100%;
   box-sizing: border-box;
-  border: 1px solid #60c095;
+  border: 1px solid #60C095;
   border-radius: 4px;
   vertical-align: top;
   min-height: 114px;
@@ -364,7 +364,7 @@ footer {
 
 button:hover {
   background-color: #36b37f;
-  box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
+  box-shadow: 0px 8px 16px rgba(54, 179, 127, 0.24);
 }
 
 button:enabled {
