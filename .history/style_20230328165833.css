@@ -327,6 +327,10 @@ textarea::placeholder {
   padding-left: 90px; 
 }
 
+button {
+  margin-left: 0.5em;
+}
+
 .email {
   font-family: 'Inter';
   font-style: normal;
@@ -348,7 +352,6 @@ textarea::placeholder {
   letter-spacing: 0.03em;
   border: 0;
   border-radius: 4px;
-  cursor: pointer;
 }
 
 /* footer */
@@ -358,19 +361,6 @@ footer {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-}
-
-button:hover {
-  background-color: #36B37F;
-  box-shadow: 0px 8px 16px rgba(54, 179, 127, 0.24);
-}
-
-button:enabled {
-  background-color: #36b37e;
-}
-
-button:active {
-  background-color: #008552;
 }
 
 .color1 { color: #36b37e; }
