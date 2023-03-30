@@ -11,10 +11,6 @@ ul {
   padding-bottom: 100px;
 }
 
-body {
-  margin: 0;
-}
-
 @media (max-width: 768px) {
   body {
     background-image: url("Assets/headline-background.svg");
@@ -89,8 +85,8 @@ nav ul {
   text-align: center;
 }
 
-.social-media-icons-desktop {
-  display: none;
+.social-media-icons {
+  list-style: none;
 }
 
 form li + li {
@@ -322,7 +318,7 @@ form li + li {
   width: 100%;
 }
 
-.first-last-name {
+.first-name, .last-name {
   display: none;
 }
 
@@ -470,23 +466,17 @@ button:active {
   .headline {
     margin-top: 135px;
     width: 810px;
+    border: 1px solid blue;
   }
 
   .Primary {
+    border: 1px solid black;
     width: 100%;
   }
   
   .Supporting-Text {
+    border: 1px solid black;
     width: auto;
-  }
-
-  .social-media-icons-desktop {
-    display: unset;
-  }
-
-  .social-media-icons-desktop li {
-    display: inline-block;
-    padding: 5px;
   }
 
   .bottom-arrow {
@@ -509,6 +499,7 @@ button:active {
     grid-template-columns: 43px 1fr 1fr 1fr 42px;
     gap: 0 1.8rem;
     grid-template-rows: auto auto;
+    border: 1px solid purple;
   }
     
   .grid-container {
@@ -531,6 +522,7 @@ button:active {
   .card-bottom-half {
     grid-row-start: 2;
     grid-row-end: 3;
+    border: 1px solid pink;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -546,6 +538,7 @@ button:active {
     font-weight: 600;
     font-size: 1.5rem;
     line-height: 32px;
+    border: 1px solid black;
     margin: 0;
   }
 
@@ -564,7 +557,7 @@ button:active {
     background-color: #ebf0ee;
     border: none;
     color: #172b4d;
-    padding: 0.5rem 0.5rem;
+    padding: 0.5rem 2rem;
     text-align: center;
     font-family: 'Inter', sans-serif;
     font-weight: 600;
@@ -584,7 +577,7 @@ button:active {
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 1rem;
+    font-size: 0.75rem;
     margin: 0.5rem 0 0.2rem 0;
     cursor: pointer;
     border-radius: 4px;
@@ -743,13 +736,9 @@ button:active {
     margin-right: 1rem;
   }
 
-  form {
-    margin-right: 50px;
-  }
-
   .contact-me {
     flex-direction: row;
-    padding-bottom: 15rem;
+    padding-bottom: 20rem;
     background-image: url("Assets/contact-me-background-desktop.svg");
     background-size: contain;
     background-repeat: no-repeat;
@@ -777,27 +766,9 @@ button:active {
     align-items: flex-start;
   }
 
-  .contact-me-button {
-    padding: 0.75rem;
-    font-size: 1rem;
-  }
-
   /* footer  */
-  .social-media-icons {
-    display: none;
-  }
-
   footer > img {
     display: none;
-  }
-
-  footer {
-    height: 0;
-    border-top: 1px solid #dfe1e6;
-  }
-
-  footer .social-media-icons-desktop {
-    padding: 1.2rem;
   }
 }
 
