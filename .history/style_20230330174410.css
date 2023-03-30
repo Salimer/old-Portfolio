@@ -122,6 +122,7 @@ form li + li {
   font-weight: 700;
   font-style: normal;
   height: top;
+  padding-bottom: 30px;
   text-align: center;
 }
 
@@ -232,18 +233,6 @@ form li + li {
   }
 }
 
-.about-me-supporting-Text {
-  width: 327px;
-  height: 164px;
-  top: 382px;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 28px;
-  text-align: center;
-}
-
 /* skill cards */
 .Languages-Frameworks-skills {
   display: flex;
@@ -313,14 +302,12 @@ form li + li {
 .contact-header {
   text-align: center;
   margin-bottom: 5rem;
-  margin-left: 1rem;
-  margin-right: 1rem;
 }
 
 .contact-me-title {
-  padding-left: 0;
-  padding-right: 0;
   text-align: center;
+  padding-left: 24px;
+  padding-right: 30px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -375,7 +362,6 @@ textarea {
   border-radius: 4px;
   vertical-align: top;
   min-height: 114px;
-  font-size: 17px;
 }
 
 ::placeholder {
@@ -444,7 +430,7 @@ button:active {
     background-size: contain;
   }
 
-  /* Header */
+                          /* Header */
   nav img {
     display: none;
   }
@@ -458,10 +444,8 @@ button:active {
   }
 
   nav ul {
-    display: unset;
-    position: fixed;
-    width: 100%;
-    text-align: center;
+    display: flex;
+    justify-content: center;
   }
 
   nav ul li {
@@ -475,14 +459,13 @@ button:active {
 
   nav ul a {
     text-decoration: none;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter';
     font-style: normal;
     font-weight: 600;
     font-size: 15px;
     line-height: 20px;
     color: #344563;
   }
-
   /* Headline */
   .headline {
     margin-top: 135px;
@@ -492,10 +475,9 @@ button:active {
   .Primary {
     width: 100%;
   }
-
+  
   .Supporting-Text {
     width: auto;
-    line-height: 32px;
   }
 
   .social-media-icons-desktop {
@@ -528,7 +510,7 @@ button:active {
     gap: 0 1.8rem;
     grid-template-rows: auto auto;
   }
-
+    
   .grid-container {
     width: 100%;
     display: grid;
@@ -577,7 +559,7 @@ button:active {
     flex-wrap: wrap;
     justify-content: center;
   }
-
+  
   .grey-button {
     background-color: #ebf0ee;
     border: none;
@@ -592,7 +574,7 @@ button:active {
     margin: 4px 2px;
     border-radius: 4px;
   }
-
+  
   .green-button {
     background-color: #36b37e;
     border: none;
@@ -649,30 +631,27 @@ button:active {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url("Assets/about-me-background-desktop.svg");
-    background-size: contain;
+    background-image: url("Assets/aboutme-right-desktop.svg");
     background-repeat: no-repeat;
+    background-position-x: right;
     background-position-y: top;
     width: 100%;
   }
 
-  .about-me-supporting-Text {
-    width: 810px;
-    height: auto;
-    top: 382px;
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 32px;
-    text-align: center;
-    padding-bottom: 3rem;
+  .about-me .Supporting-Text {
+    background-color: black;
+    width: 10px;
+    height: 5000px;
   }
 
   .about-me-button {
     display: flex;
     justify-content: center;
     width: 100%;
+    background-image: url("Assets/aboutme-left-desktop.svg");
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: bottom;
   }
 
   /* Skills section  */
@@ -688,21 +667,21 @@ button:active {
     border-radius: 8px;
     margin-bottom: 30px;
   }
-
+  
   .skill-image {
     padding-top: 0;
   }
-
+  
   .skill-card-title {
     font-family: 'Inter', sans-serif;
     font-style: normal;
-    font-size: 1.5rem;
+    font-size: 1.5rem;    
   }
 
   .skill-card-title h3 {
     margin: 0;
   }
-
+  
   .skill-technologies {
     display: flex;
     list-style: none;
@@ -712,7 +691,7 @@ button:active {
     padding: 0;
     margin-bottom: 1rem;
   }
-
+  
   .skill-button {
     background-color: #fff;
     border: none;

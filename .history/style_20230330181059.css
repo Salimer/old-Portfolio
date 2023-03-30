@@ -313,14 +313,12 @@ form li + li {
 .contact-header {
   text-align: center;
   margin-bottom: 5rem;
-  margin-left: 1rem;
-  margin-right: 1rem;
 }
 
 .contact-me-title {
-  padding-left: 0;
-  padding-right: 0;
   text-align: center;
+  padding-left: 24px;
+  padding-right: 30px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -375,7 +373,6 @@ textarea {
   border-radius: 4px;
   vertical-align: top;
   min-height: 114px;
-  font-size: 17px;
 }
 
 ::placeholder {
@@ -444,7 +441,7 @@ button:active {
     background-size: contain;
   }
 
-  /* Header */
+                          /* Header */
   nav img {
     display: none;
   }
@@ -458,10 +455,8 @@ button:active {
   }
 
   nav ul {
-    display: unset;
-    position: fixed;
-    width: 100%;
-    text-align: center;
+    display: flex;
+    justify-content: center;
   }
 
   nav ul li {
@@ -475,12 +470,16 @@ button:active {
 
   nav ul a {
     text-decoration: none;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter';
     font-style: normal;
     font-weight: 600;
     font-size: 15px;
     line-height: 20px;
     color: #344563;
+  }
+
+  .header-nav {
+    
   }
 
   /* Headline */
@@ -492,7 +491,7 @@ button:active {
   .Primary {
     width: 100%;
   }
-
+  
   .Supporting-Text {
     width: auto;
     line-height: 32px;
@@ -528,7 +527,7 @@ button:active {
     gap: 0 1.8rem;
     grid-template-rows: auto auto;
   }
-
+    
   .grid-container {
     width: 100%;
     display: grid;
@@ -577,7 +576,7 @@ button:active {
     flex-wrap: wrap;
     justify-content: center;
   }
-
+  
   .grey-button {
     background-color: #ebf0ee;
     border: none;
@@ -592,7 +591,7 @@ button:active {
     margin: 4px 2px;
     border-radius: 4px;
   }
-
+  
   .green-button {
     background-color: #36b37e;
     border: none;
@@ -688,21 +687,21 @@ button:active {
     border-radius: 8px;
     margin-bottom: 30px;
   }
-
+  
   .skill-image {
     padding-top: 0;
   }
-
+  
   .skill-card-title {
     font-family: 'Inter', sans-serif;
     font-style: normal;
-    font-size: 1.5rem;
+    font-size: 1.5rem;    
   }
 
   .skill-card-title h3 {
     margin: 0;
   }
-
+  
   .skill-technologies {
     display: flex;
     list-style: none;
@@ -712,7 +711,7 @@ button:active {
     padding: 0;
     margin-bottom: 1rem;
   }
-
+  
   .skill-button {
     background-color: #fff;
     border: none;

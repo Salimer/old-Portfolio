@@ -5,14 +5,11 @@ ul {
   list-style: none;
   padding: 0;
   margin: 0;
+  border: 1px solid black;
 }
 
 .space {
   padding-bottom: 100px;
-}
-
-body {
-  margin: 0;
 }
 
 @media (max-width: 768px) {
@@ -77,6 +74,10 @@ nav ul {
   line-height: 52px;
 }
 
+section {
+  border: 1px solid red;
+}
+
 .Supporting-Text {
   width: 327px;
   height: 164px;
@@ -89,8 +90,8 @@ nav ul {
   text-align: center;
 }
 
-.social-media-icons-desktop {
-  display: none;
+.social-media-icons {
+  list-style: none;
 }
 
 form li + li {
@@ -122,6 +123,7 @@ form li + li {
   font-weight: 700;
   font-style: normal;
   height: top;
+  padding-bottom: 30px;
   text-align: center;
 }
 
@@ -232,18 +234,6 @@ form li + li {
   }
 }
 
-.about-me-supporting-Text {
-  width: 327px;
-  height: 164px;
-  top: 382px;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 28px;
-  text-align: center;
-}
-
 /* skill cards */
 .Languages-Frameworks-skills {
   display: flex;
@@ -269,8 +259,6 @@ form li + li {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-size: 30px;
-  font-weight: 600;
-  margin-bottom: 0.8rem;
 }
 
 .skill-technologies {
@@ -310,17 +298,10 @@ form li + li {
   background-position-y: bottom;
 }
 
-.contact-header {
-  text-align: center;
-  margin-bottom: 5rem;
-  margin-left: 1rem;
-  margin-right: 1rem;
-}
-
 .contact-me-title {
-  padding-left: 0;
-  padding-right: 0;
   text-align: center;
+  padding-left: 24px;
+  padding-right: 30px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -333,10 +314,6 @@ form li + li {
   flex-direction: column;
   align-items: center;
   width: 100%;
-}
-
-.first-last-name {
-  display: none;
 }
 
 form {
@@ -375,7 +352,6 @@ textarea {
   border-radius: 4px;
   vertical-align: top;
   min-height: 114px;
-  font-size: 17px;
 }
 
 ::placeholder {
@@ -444,7 +420,7 @@ button:active {
     background-size: contain;
   }
 
-  /* Header */
+                          /* Header */
   nav img {
     display: none;
   }
@@ -458,10 +434,8 @@ button:active {
   }
 
   nav ul {
-    display: unset;
-    position: fixed;
-    width: 100%;
-    text-align: center;
+    display: flex;
+    justify-content: center;
   }
 
   nav ul li {
@@ -475,36 +449,28 @@ button:active {
 
   nav ul a {
     text-decoration: none;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter';
     font-style: normal;
     font-weight: 600;
     font-size: 15px;
     line-height: 20px;
     color: #344563;
   }
-
   /* Headline */
   .headline {
     margin-top: 135px;
     width: 810px;
+    border: 1px solid blue;
   }
 
   .Primary {
+    border: 1px solid black;
     width: 100%;
   }
-
+  
   .Supporting-Text {
+    border: 1px solid black;
     width: auto;
-    line-height: 32px;
-  }
-
-  .social-media-icons-desktop {
-    display: unset;
-  }
-
-  .social-media-icons-desktop li {
-    display: inline-block;
-    padding: 5px;
   }
 
   .bottom-arrow {
@@ -527,8 +493,9 @@ button:active {
     grid-template-columns: 43px 1fr 1fr 1fr 42px;
     gap: 0 1.8rem;
     grid-template-rows: auto auto;
+    border: 1px solid purple;
   }
-
+    
   .grid-container {
     width: 100%;
     display: grid;
@@ -549,6 +516,7 @@ button:active {
   .card-bottom-half {
     grid-row-start: 2;
     grid-row-end: 3;
+    border: 1px solid pink;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -564,6 +532,7 @@ button:active {
     font-weight: 600;
     font-size: 1.5rem;
     line-height: 32px;
+    border: 1px solid black;
     margin: 0;
   }
 
@@ -577,12 +546,12 @@ button:active {
     flex-wrap: wrap;
     justify-content: center;
   }
-
+  
   .grey-button {
     background-color: #ebf0ee;
     border: none;
     color: #172b4d;
-    padding: 0.5rem 0.5rem;
+    padding: 0.5rem 2rem;
     text-align: center;
     font-family: 'Inter', sans-serif;
     font-weight: 600;
@@ -592,7 +561,7 @@ button:active {
     margin: 4px 2px;
     border-radius: 4px;
   }
-
+  
   .green-button {
     background-color: #36b37e;
     border: none;
@@ -602,7 +571,7 @@ button:active {
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 1rem;
+    font-size: 0.75rem;
     margin: 0.5rem 0 0.2rem 0;
     cursor: pointer;
     border-radius: 4px;
@@ -649,176 +618,27 @@ button:active {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url("Assets/about-me-background-desktop.svg");
-    background-size: contain;
+    background-image: url("Assets/aboutme-right-desktop.svg");
     background-repeat: no-repeat;
+    background-position-x: right;
     background-position-y: top;
     width: 100%;
   }
 
-  .about-me-supporting-Text {
-    width: 810px;
-    height: auto;
-    top: 382px;
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 32px;
-    text-align: center;
-    padding-bottom: 3rem;
+  .about-me .Supporting-Text {
+    background-color: black;
+    width: 10px;
+    height: 5000px;
   }
 
   .about-me-button {
     display: flex;
     justify-content: center;
     width: 100%;
-  }
-
-  /* Skills section  */
-  .Languages-Frameworks-skills {
-    width: 100%;
-    display: grid;
-    grid-template-columns: 43px 1fr 1fr 1fr 42px;
-    gap: 0 1.8rem;
-  }
-
-  .skill-card {
-    border: 1px solid #c1c7d0;
-    border-radius: 8px;
-    margin-bottom: 30px;
-  }
-
-  .skill-image {
-    padding-top: 0;
-  }
-
-  .skill-card-title {
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-size: 1.5rem;
-  }
-
-  .skill-card-title h3 {
-    margin: 0;
-  }
-
-  .skill-technologies {
-    display: flex;
-    list-style: none;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 0;
-    margin-bottom: 1rem;
-  }
-
-  .skill-button {
-    background-color: #fff;
-    border: none;
-    color: #36b37e;
-    padding: 0.75rem;
-    text-align: center;
-    font-family: 'Inter', sans-serif;
-    font-weight: 600;
-    font-size: 12px;
-    margin-top: 0;
-    margin-left: 4px;
-    margin-right: 4px;
-    border-radius: 8px;
-  }
-
-  .skills-one {
-    grid-column-start: 2;
-    grid-column-end: 3;
-  }
-
-  .skills-two {
-    grid-column-start: 3;
-    grid-column-end: 4;
-  }
-
-  .skills-three {
-    grid-column-start: 4;
-    grid-column-end: 5;
-  }
-
-  /* contact me */
-  .email {
-    display: none;
-  }
-
-  .full-name {
-    display: none;
-  }
-
-  .first-last-name {
-    display: flex;
-  }
-
-  #last-name {
-    margin-left: 1rem;
-  }
-
-  #first-name {
-    margin-right: 1rem;
-  }
-
-  form {
-    margin-right: 50px;
-  }
-
-  .contact-me {
-    flex-direction: row;
-    padding-bottom: 15rem;
-    background-image: url("Assets/contact-me-background-desktop.svg");
-    background-size: contain;
+    background-image: url("Assets/aboutme-left-desktop.svg");
     background-repeat: no-repeat;
+    background-position-x: left;
     background-position-y: bottom;
-  }
-
-  .contact-header {
-    text-align: left;
-    margin-bottom: 5rem;
-    width: 50%;
-    margin-left: 70px;
-  }
-
-  .contact-me-title {
-    padding-left: 0;
-    padding-right: 0;
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 27px;
-    line-height: 52px;
-  }
-
-  .contact-me-button-li {
-    align-items: flex-start;
-  }
-
-  .contact-me-button {
-    padding: 0.75rem;
-    font-size: 1rem;
-  }
-
-  /* footer  */
-  .social-media-icons {
-    display: none;
-  }
-
-  footer > img {
-    display: none;
-  }
-
-  footer {
-    height: 0;
-    border-top: 1px solid #dfe1e6;
-  }
-
-  footer .social-media-icons-desktop {
-    padding: 1.2rem;
   }
 }
 
