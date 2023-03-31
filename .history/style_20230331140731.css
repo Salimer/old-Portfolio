@@ -797,15 +797,6 @@ button:active {
     transform: translate(20px);
   }
 
-  #mail {
-    transition: transform;
-    transition-duration: 1s;
-  }
-
-  #mail:hover {
-    transform: translate(20px);
-  }
-
   form {
     margin-right: 50px;
   }

@@ -41,18 +41,6 @@ main {
   width: 48px;
   height: 48px;
   border-radius: 50%;
-  animation-duration: 2s;
-  animation-name: logo-rotate;
-}
-
-@keyframes logo-rotate {
-  from {
-    transform: rotate(0);
-  }
-
-  to {
-    transform: rotate(360deg);
-  }
 }
 
 nav ul {
@@ -551,12 +539,6 @@ button:active {
     border-radius: 8px;
     margin: 24px 5px;
     border: 1px solid #c1c7d0;
-    transition-property: transform;
-    transition-duration: 250ms;
-  }
-
-  .grid-container:hover {
-    transform: scale(1.05);
   }
 
   .card-top-half {
@@ -632,6 +614,12 @@ button:active {
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row: 1 2;
+    transition-property: transform;
+    transition-duration: 250ms;
+  }
+
+  .works-one:hover {
+    transform: scale(1.05);
   }
 
   .works-two {
@@ -779,31 +767,10 @@ button:active {
 
   #last-name {
     margin-left: 1rem;
-    transition: transform;
-    transition-duration: 1s;
   }
 
   #first-name {
     margin-right: 1rem;
-    transition: transform;
-    transition-duration: 1s;
-  }
-
-  #first-name:hover {
-    transform: translate(20px);
-  }
-
-  #last-name:hover {
-    transform: translate(20px);
-  }
-
-  #mail {
-    transition: transform;
-    transition-duration: 1s;
-  }
-
-  #mail:hover {
-    transform: translate(20px);
   }
 
   form {
