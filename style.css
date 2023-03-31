@@ -779,10 +779,22 @@ button:active {
 
   #last-name {
     margin-left: 1rem;
+    transition: transform;
+    transition-duration: 1s;
   }
 
   #first-name {
     margin-right: 1rem;
+    transition: transform;
+    transition-duration: 1s;
+  }
+
+  #first-name:hover {
+    transform: translate(20px);
+  }
+
+  #last-name:hover {
+    transform: translate(20px);
   }
 
   form {
