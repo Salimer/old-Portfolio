@@ -363,6 +363,12 @@ form {
   align-items: center;
 }
 
+label {
+  display: inline-block;
+  width: 90px;
+  text-align: right;
+}
+
 input {
   font: 1em sans-serif;
   font-style: italic;
