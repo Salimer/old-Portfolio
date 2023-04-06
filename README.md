@@ -16,6 +16,7 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+  - [🤯 Project walkthrough](#walk-through)
   - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
@@ -67,6 +68,15 @@
 
 - **[Gitflow]**
 - **[Linters]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 🤯 PROJECT WALKTHROUGH <a name="walk-through"></a>
+
+
+- [Walk through video](https://www.loom.com/share/20c1077651a044c081ce4eb772794751)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
