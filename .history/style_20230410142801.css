@@ -47,9 +47,13 @@ main {
   position: fixed;
 }
 
+.mobile-menu ul {
+  margin-left: 7.5%;
+}
+
 .mobile-menu a {
   text-decoration: none;
-  color: #3a4a42;
+  color: #3A4A42;
 }
 
 .mobile-menu ul li a:hover {
@@ -67,7 +71,7 @@ main {
 
 .header {
   display: flex;
-  flex-direction: row;
+  flex-flow: row unwrap;
   justify-content: space-between;
 }
 
@@ -518,10 +522,6 @@ button:active {
     position: fixed;
     width: 100%;
     text-align: center;
-  }
-
-  .mobile-menu ul {
-    margin-left: 7.5%;
   }
 
   nav ul li {
