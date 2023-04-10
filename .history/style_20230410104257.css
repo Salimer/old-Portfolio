@@ -32,38 +32,6 @@ main {
 /* Header */
 .mobile-menu {
   display: none;
-  width: 100vw;
-  height: 100vh;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 32px;
-  line-height: 44px;
-}
-
-.mobile-menu ul {
-  margin-left: 7.5%;
-}
-
-.mobile-menu li + li {
-  margin-top: 5%;
-}
-
-.mobile-menu a {
-  text-decoration: none;
-  color: #3A4A42;
-}
-
-#x {
-  margin-left: 85%;
-}
-
-.show {
-  display: block;
-}
-
-.hide {
-  display: none !important;
 }
 
 .header {
