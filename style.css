@@ -60,6 +60,11 @@ main {
   color: #3A4A42;
 }
 
+.mobile-menu ul li a:hover {
+  color: #e05304;
+  transition: all 0.3s;
+}
+
 #x {
   margin-left: 85%;
 }
