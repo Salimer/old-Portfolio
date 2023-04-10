@@ -11,8 +11,7 @@ ul {
   padding-bottom: 100px;
 }
 
-body,
-html {
+body, html {
   height: 100%;
   margin: 0;
   padding: 0;
@@ -37,30 +36,32 @@ main {
   display: none;
   background-color: #fff;
   width: 100vw;
-  height: 100vh;
+  height: calc(100vh - 33.13px);
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 32px;
   line-height: 44px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
   position: fixed;
-}
-
-nav ul {
-  display: none;
 }
 
 .mobile-menu ul {
   margin-left: 7.5%;
 }
 
+.mobile-menu li {
+  margin-top: 5%;
+}
+
 .mobile-menu a {
   text-decoration: none;
-  color: #3a4a42;
+  color: #3A4A42;
 }
 
 .mobile-menu ul li a:hover {
-  color: #36b37f;
+  color: #e05304;
   transition: all 0.3s;
 }
 
@@ -74,7 +75,7 @@ nav ul {
 
 .header {
   display: flex;
-  flex-direction: row;
+  flex-flow: row unwrap;
   justify-content: space-between;
 }
 
@@ -95,6 +96,10 @@ nav ul {
   to {
     transform: rotate(360deg);
   }
+}
+
+nav ul {
+  display: none;
 }
 
 .Normal-Button {
@@ -146,10 +151,6 @@ nav ul {
 
 form li + li {
   margin-top: 24px;
-}
-
-.mobile-menu li {
-  margin-top: 5%;
 }
 
 .social-media-icons li {
@@ -691,6 +692,7 @@ button:active {
   .works-three {
     grid-column-start: 4;
     grid-column-end: 5;
+    grid-row: 1 2;
     grid-row-start: 1;
     grid-row-end: 2;
   }

@@ -11,7 +11,7 @@ ul {
   padding-bottom: 100px;
 }
 
-body,
+body, 
 html {
   height: 100%;
   margin: 0;
@@ -45,7 +45,6 @@ main {
   line-height: 44px;
   position: fixed;
 }
-
 nav ul {
   display: none;
 }

@@ -11,8 +11,7 @@ ul {
   padding-bottom: 100px;
 }
 
-body,
-html {
+body, html {
   height: 100%;
   margin: 0;
   padding: 0;
@@ -44,10 +43,6 @@ main {
   font-size: 32px;
   line-height: 44px;
   position: fixed;
-}
-
-nav ul {
-  display: none;
 }
 
 .mobile-menu ul {
@@ -95,6 +90,10 @@ nav ul {
   to {
     transform: rotate(360deg);
   }
+}
+
+nav ul {
+  display: none;
 }
 
 .Normal-Button {

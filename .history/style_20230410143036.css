@@ -11,8 +11,7 @@ ul {
   padding-bottom: 100px;
 }
 
-body,
-html {
+body, html {
   height: 100%;
   margin: 0;
   padding: 0;
@@ -37,21 +36,15 @@ main {
   display: none;
   background-color: #fff;
   width: 100vw;
-  height: 100vh;
+  height: calc(100vh - 33.13px);
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 32px;
   line-height: 44px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
   position: fixed;
-}
-
-nav ul {
-  display: none;
-}
-
-.mobile-menu ul {
-  margin-left: 7.5%;
 }
 
 .mobile-menu a {
@@ -60,7 +53,7 @@ nav ul {
 }
 
 .mobile-menu ul li a:hover {
-  color: #36b37f;
+  color: #e05304;
   transition: all 0.3s;
 }
 
@@ -95,6 +88,10 @@ nav ul {
   to {
     transform: rotate(360deg);
   }
+}
+
+nav ul {
+  display: none;
 }
 
 .Normal-Button {
@@ -521,6 +518,10 @@ button:active {
     position: fixed;
     width: 100%;
     text-align: center;
+  }
+
+  .mobile-menu ul {
+    margin-left: 7.5%;
   }
 
   nav ul li {

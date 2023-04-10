@@ -11,8 +11,7 @@ ul {
   padding-bottom: 100px;
 }
 
-body,
-html {
+body, html {
   height: 100%;
   margin: 0;
   padding: 0;
@@ -46,10 +45,6 @@ main {
   position: fixed;
 }
 
-nav ul {
-  display: none;
-}
-
 .mobile-menu ul {
   margin-left: 7.5%;
 }
@@ -60,7 +55,7 @@ nav ul {
 }
 
 .mobile-menu ul li a:hover {
-  color: #36b37f;
+  color: #e05304;
   transition: all 0.3s;
 }
 
@@ -95,6 +90,10 @@ nav ul {
   to {
     transform: rotate(360deg);
   }
+}
+
+nav ul {
+  display: none;
 }
 
 .Normal-Button {
