@@ -42,11 +42,9 @@ main {
   font-weight: 600;
   font-size: 32px;
   line-height: 44px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
   position: fixed;
-}
-
-.mobile-menu ul {
-  margin-left: 7.5%;
 }
 
 .mobile-menu a {
@@ -55,7 +53,7 @@ main {
 }
 
 .mobile-menu ul li a:hover {
-  color: #36b37f;
+  color: #e05304;
   transition: all 0.3s;
 }
 
@@ -520,6 +518,10 @@ button:active {
     position: fixed;
     width: 100%;
     text-align: center;
+  }
+
+  .mobile-menu ul {
+    margin-left: 7.5%;
   }
 
   nav ul li {
