@@ -11,11 +11,8 @@ ul {
   padding-bottom: 100px;
 }
 
-body,
-html {
-  height: 100%;
+body {
   margin: 0;
-  padding: 0;
 }
 
 @media (max-width: 768px) {
