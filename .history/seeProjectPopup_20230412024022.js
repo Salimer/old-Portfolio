@@ -22,7 +22,7 @@ closeIconDesktop.addEventListener('click', () => {
 seeProject.forEach((element) => {
   element.addEventListener('click', () => {
     let i;
-    const workClassNumber = event.target.closest('.grid-container');
+    const workClassNumber = target.closest('.grid-container');
     if (workClassNumber.classList.contains('works-one')) i = 0;
     else if (workClassNumber.classList.contains('works-two')) i = 1;
     else if (workClassNumber.classList.contains('works-three')) i = 2;

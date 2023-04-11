@@ -6,7 +6,7 @@ const closeIconDesktop = document.querySelector('#detail-popup-x-desktop');
 closeIcon.addEventListener('click', () => {
   detailPopup.classList.toggle('hide');
   const destruction = document.querySelectorAll('.detail-item2 span, .technologies li, .detail-item4 p');
-  for (let i = 0; i < destruction.length; i += 1) {
+  for (let i = 0; i < destruction.length; i+=1) {
     destruction[i].parentNode.removeChild(destruction[i]);
   }
 });
@@ -14,7 +14,7 @@ closeIcon.addEventListener('click', () => {
 closeIconDesktop.addEventListener('click', () => {
   detailPopup.classList.toggle('hide');
   const destruction = document.querySelectorAll('.detail-item2 span, .technologies li, .detail-item4 p');
-  for (let i = 0; i < destruction.length; i += 1) {
+  for (let i = 0; i < destruction.length; i++) {
     destruction[i].parentNode.removeChild(destruction[i]);
   }
 });

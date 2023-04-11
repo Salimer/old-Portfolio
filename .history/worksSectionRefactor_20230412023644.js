@@ -97,5 +97,5 @@ projects.forEach((project) => {
   // Append the container element to the div with class "works"
   const works = document.querySelector('.works');
   works.appendChild(container);
-  count += 1;
+  count+=1;
 });
