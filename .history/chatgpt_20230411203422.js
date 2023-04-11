@@ -70,8 +70,8 @@ projects.forEach((project) => {
   seeProjectButton.innerHTML = 'See project';
   cardBottomHalf.appendChild(seeProjectButton);
 
-  // Append the container element to the div with class "works"
-  const works = document.querySelector('.works');
-  works.appendChild(container);
+  // Append the container element to the div with class "works-cards"
+  const worksCards = document.querySelector('.works');
+  worksCards.appendChild(container);
   count++;
 });
