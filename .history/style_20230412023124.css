@@ -531,6 +531,7 @@ button:active {
 }
 
 .detail-item1 {
+  margin-top: 1rem;
   grid-row-start: 1;
   grid-row-end: 2;
   grid-column-start: 2;

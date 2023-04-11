@@ -531,6 +531,7 @@ button:active {
 }
 
 .detail-item1 {
+  margin-top: 1rem;
   grid-row-start: 1;
   grid-row-end: 2;
   grid-column-start: 2;
@@ -579,7 +580,7 @@ button:active {
 }
 
 .detail-item4 p {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -1044,7 +1045,7 @@ button:active {
     backdrop-filter: blur(10px);
     padding: 7.625rem 16.25rem;
   }
-
+  
   .popup-container {
     grid-template-rows: auto auto auto auto auto;
     grid-template-columns: auto auto auto;
