@@ -26,7 +26,7 @@ const projects = [
       {
         featuredImage: "Assets/detailTop.svg",
         name: "Keeping track of<br>hundreds of components",
-        technologies: ['Codekit', 'GitHub', 'JavaScript', 'Bootstrap', 'Terminal', 'Codepen'],
+        technologies: ['C', 'CSS', 'JavaScript'],
         description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.<br><br>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.",
         linkToLiveVersion: "https://youtu.be/dQw4w9WgXcQ",
         linkToSource: "https://youtu.be/dQw4w9WgXcQ"

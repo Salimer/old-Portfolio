@@ -569,6 +569,7 @@ button:active {
   grid-row-end: 4;
   grid-column-start: 2;
   grid-column-end: 3;
+  justify-self: star;
 }
 
 .detail-item4 {
@@ -1081,7 +1082,6 @@ button:active {
 
   .detail-item3 {
     grid-area: c;
-    justify-self: start;
   }
 
   .detail-item4 {
