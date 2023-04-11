@@ -155,3 +155,4 @@ seeProject.forEach((element) => {
     detailPopup.classList.toggle('hide');
   });
 });
+
