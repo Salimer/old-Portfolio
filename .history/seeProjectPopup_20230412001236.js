@@ -1,17 +1,8 @@
 const seeProject = document.querySelectorAll('.see-project');
 const detailPopup = document.querySelector('.detail-popup');
 const closeIcon = document.querySelector('#detail-popup-x')
-const closeIconDesktop = document.querySelector('#detail-popup-x-desktop')
 
 closeIcon.addEventListener('click', () => {
-    detailPopup.classList.toggle('hide');
-    const destruction = document.querySelectorAll('.detail-item2 span, .technologies li, .detail-item4 p');
-    for (let i = 0; i < destruction.length; i++) {
-        destruction[i].parentNode.removeChild(destruction[i]);
-    }
-});
-
-closeIconDesktop.addEventListener('click', () => {
     detailPopup.classList.toggle('hide');
     const destruction = document.querySelectorAll('.detail-item2 span, .technologies li, .detail-item4 p');
     for (let i = 0; i < destruction.length; i++) {

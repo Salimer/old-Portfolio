@@ -511,7 +511,6 @@ button:active {
   padding: 1rem 0;
   position: fixed;
   top: 0;
-  overflow: auto;
 }
 
 .popup-container {
@@ -525,10 +524,6 @@ button:active {
   background-color: #fff;
   border-radius: 16px;
   overflow: auto;
-}
-
-.detail-item0 {
-  display: none;
 }
 
 .detail-item1 {
@@ -551,6 +546,7 @@ button:active {
   right: 2rem;
   position: absolute;
 }
+
 
 .detail-item2 {
   grid-row-start: 2;
@@ -1038,58 +1034,6 @@ button:active {
 
   footer .social-media-icons-desktop {
     padding: 1.2rem;
-  }
-
-  /* Detail popup */
-  .detail-popup {
-    background-color: rgba(193, 199, 208, 0.5);
-    backdrop-filter: blur(10px);
-    padding: 7.625rem 16.25rem;
-  }
-  .popup-container {
-    grid-template-rows: auto auto auto auto auto;
-    grid-template-columns: auto auto auto;
-    grid-template-areas:
-    "x x x"
-    "a a a"
-    "b b e"
-    "c c c"
-    "d d d";
-    padding: 1.5rem;
-  }
-
-  .detail-item0 {
-    display: block;
-    grid-area: x;
-    justify-self: end;
-  }
-
-  #detail-popup-x {
-    display: none;
-  }
-
-  .detail-item1 {
-    grid-area: a;
-    height: 38.5rem;
-    background-image: url(Assets/detailTop-desktop.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
-  .detail-item2 {
-    grid-area: b;
-  }
-
-  .detail-item3 {
-    grid-area: c;
-  }
-
-  .detail-item4 {
-    grid-area: d;
-  }
-
-  .detail-item5 {
-    grid-area: e;
   }
 }
 
