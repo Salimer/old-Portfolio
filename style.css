@@ -236,13 +236,12 @@ form li + li {
   background-color: #ebf0ee;
   border: none;
   color: #172b4d;
-  padding: 15px 32px;
+  padding: 2.13% 3.2%;
   text-align: center;
   font-family: 'Inter', sans-serif;
   font-weight: 600;
   font-size: 12px;
   letter-spacing: 0.03em;
-  margin: 4px 2px;
   border-radius: 4px;
 }
 
@@ -495,7 +494,7 @@ button:active {
 
 /* Detail popup */
 .detail-popup {
-  display: none;
+  display: flex;
   justify-content: center;
   align-items: center;
   height: auto;
