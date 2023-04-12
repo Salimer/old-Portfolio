@@ -503,7 +503,7 @@ button:active {
 
 /* Detail popup */
 .detail-popup {
-  display: grid;
+  /* display: grid; */
   grid-template-columns: 1rem auto 1rem;
   grid-template-rows: 1rem auto 1rem;
   height: 100%;
@@ -531,7 +531,6 @@ button:active {
   align-items: center;
   background-color: #fff;
   border-radius: 16px;
-  padding: 1rem;
 }
 
 .detail-item0 {
@@ -1049,7 +1048,6 @@ button:active {
 
   /* Detail popup */
   .detail-popup {
-    grid-template-columns: 8rem auto 8rem;
     background-color: rgba(193, 199, 208, 0.5);
     backdrop-filter: blur(10px);
   }
@@ -1063,7 +1061,6 @@ button:active {
       "b b e"
       "c c c"
       "d d d";
-      padding: 1.4rem;
   }
 
   .detail-item0 {

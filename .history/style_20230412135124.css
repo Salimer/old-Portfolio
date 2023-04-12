@@ -504,8 +504,9 @@ button:active {
 /* Detail popup */
 .detail-popup {
   display: grid;
-  grid-template-columns: 1rem auto 1rem;
-  grid-template-rows: 1rem auto 1rem;
+  grid-template-columns: 1rem;
+  justify-content: center;
+  align-items: center;
   height: 100%;
   background-color: #c1c7d0;
   background-color: rgba(193, 199, 208, 0.5);
@@ -519,10 +520,7 @@ button:active {
 }
 
 .popup-container {
-  grid-column-start: 2;
-  grid-column-end: 3;
-  grid-row-start: 2;
-  grid-row-end: 3;
+  width: 91.47%;
   min-height: auto;
   display: grid;
   grid-template-rows: auto auto auto auto;
@@ -531,7 +529,6 @@ button:active {
   align-items: center;
   background-color: #fff;
   border-radius: 16px;
-  padding: 1rem;
 }
 
 .detail-item0 {
@@ -543,7 +540,6 @@ button:active {
   grid-row-end: 2;
   grid-column-start: 2;
   grid-column-end: 3;
-  justify-self: center;
   height: 13.75rem;
   background-image: url(Assets/detailTop.svg);
   background-repeat: no-repeat;
@@ -594,6 +590,8 @@ button:active {
   font-size: 16px;
   line-height: 24px;
   margin: 0;
+  height: 5rem;
+  overflow: auto;
 }
 
 .detail-item5 {
@@ -1049,9 +1047,9 @@ button:active {
 
   /* Detail popup */
   .detail-popup {
-    grid-template-columns: 8rem auto 8rem;
     background-color: rgba(193, 199, 208, 0.5);
     backdrop-filter: blur(10px);
+    padding: 2rem 8rem;
   }
 
   .popup-container {
@@ -1063,7 +1061,7 @@ button:active {
       "b b e"
       "c c c"
       "d d d";
-      padding: 1.4rem;
+    padding: 1.5rem;
   }
 
   .detail-item0 {

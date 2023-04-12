@@ -531,7 +531,6 @@ button:active {
   align-items: center;
   background-color: #fff;
   border-radius: 16px;
-  padding: 1rem;
 }
 
 .detail-item0 {
@@ -1049,7 +1048,7 @@ button:active {
 
   /* Detail popup */
   .detail-popup {
-    grid-template-columns: 8rem auto 8rem;
+    grid-template-rows: 8rem auto 1rem;
     background-color: rgba(193, 199, 208, 0.5);
     backdrop-filter: blur(10px);
   }
@@ -1063,7 +1062,6 @@ button:active {
       "b b e"
       "c c c"
       "d d d";
-      padding: 1.4rem;
   }
 
   .detail-item0 {

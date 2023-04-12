@@ -531,7 +531,6 @@ button:active {
   align-items: center;
   background-color: #fff;
   border-radius: 16px;
-  padding: 1rem;
 }
 
 .detail-item0 {
@@ -1063,7 +1062,6 @@ button:active {
       "b b e"
       "c c c"
       "d d d";
-      padding: 1.4rem;
   }
 
   .detail-item0 {
