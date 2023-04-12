@@ -1053,6 +1053,7 @@ button:active {
   }
 
   .popup-container {
+    
     grid-template-rows: auto auto auto auto auto;
     grid-template-columns: auto auto auto;
     grid-template-areas:

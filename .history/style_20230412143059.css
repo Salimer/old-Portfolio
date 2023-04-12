@@ -519,7 +519,8 @@ button:active {
 }
 
 .popup-container {
-  grid-column: 2 / 3;
+  grid-column-start: 2;
+  grid-column-end: 3;
   grid-row: 2 / 3;
   min-height: 55rem;
   display: grid;
@@ -1053,6 +1054,8 @@ button:active {
   }
 
   .popup-container {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
     grid-template-rows: auto auto auto auto auto;
     grid-template-columns: auto auto auto;
     grid-template-areas:

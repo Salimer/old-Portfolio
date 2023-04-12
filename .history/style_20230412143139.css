@@ -519,8 +519,10 @@ button:active {
 }
 
 .popup-container {
-  grid-column: 2 / 3;
-  grid-row: 2 / 3;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-column-end: 3;
   min-height: 55rem;
   display: grid;
   grid-template-rows: auto auto auto auto;
@@ -1046,13 +1048,15 @@ button:active {
 
   /* Detail popup */
   .detail-popup {
-    grid-template-columns: 8rem auto 8rem;
+    grid-template-columns: 8rem 50rem 8rem;
     grid-template-rows: 4rem auto 4rem;
     background-color: rgba(193, 199, 208, 0.5);
     backdrop-filter: blur(10px);
   }
 
   .popup-container {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
     grid-template-rows: auto auto auto auto auto;
     grid-template-columns: auto auto auto;
     grid-template-areas:

@@ -510,17 +510,16 @@ button:active {
   align-items: center;
   height: 100%;
   background-color: #c1c7d0;
-  background-color: rgba(193, 199, 208, 0.5);
-  backdrop-filter: blur(10px);
+  padding: 1rem 0;
   position: fixed;
   top: 0;
   overflow: auto;
-  box-sizing: border-box;
 }
 
 .popup-container {
   grid-column: 2 / 3;
   grid-row: 2 / 3;
+  /* width: 91.47%; */
   min-height: 55rem;
   display: grid;
   grid-template-rows: auto auto auto auto;
@@ -529,7 +528,6 @@ button:active {
   align-items: center;
   background-color: #fff;
   border-radius: 16px;
-  box-sizing: border-box;
 }
 
 .detail-item0 {
@@ -1046,10 +1044,9 @@ button:active {
 
   /* Detail popup */
   .detail-popup {
-    grid-template-columns: 8rem auto 8rem;
-    grid-template-rows: 4rem auto 4rem;
     background-color: rgba(193, 199, 208, 0.5);
     backdrop-filter: blur(10px);
+    padding: 7.625rem 16.25rem;
   }
 
   .popup-container {
@@ -1061,7 +1058,7 @@ button:active {
       "b b e"
       "c c c"
       "d d d";
-    padding: 1.4rem;
+    padding: 1.5rem;
   }
 
   .detail-item0 {
