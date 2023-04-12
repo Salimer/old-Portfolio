@@ -469,17 +469,6 @@ textarea::placeholder {
   cursor: pointer;
 }
 
-.form-validation-message {
-  color: #36b37e;
-  background: bisque;
-  border-radius: 5px;
-  font-family: "Inter", sans-serif;
-  line-height: 24px;
-  font-size: 17px;
-  font-weight: 700;
-  margin: 1rem;
-}
-
 /* footer */
 footer {
   display: flex;
@@ -627,6 +616,8 @@ button:active {
   flex-direction: row;
   align-items: center;
 }
+
+
 
 @media (min-width: 768px) {
   body {

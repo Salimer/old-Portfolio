@@ -468,17 +468,7 @@ textarea::placeholder {
   border-radius: 4px;
   cursor: pointer;
 }
-
-.form-validation-message {
-  color: #36b37e;
-  background: bisque;
-  border-radius: 5px;
-  font-family: "Inter", sans-serif;
-  line-height: 24px;
-  font-size: 17px;
-  font-weight: 700;
-  margin: 1rem;
-}
+ 
 
 /* footer */
 footer {
