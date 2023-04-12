@@ -22,7 +22,7 @@ function showError(event) {
     event.preventDefault();
   }
   if (!emailInput.validity.valid) {
-    errorElement.textContent = '*Please enter the required information.';
+    errorElement.textContent = '*Please enter the correct email address.';
     event.preventDefault();
   }
   setTimeout(() => {
