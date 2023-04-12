@@ -133,12 +133,12 @@ seeProject.forEach((element) => {
     else if (workClassNumber.classList.contains('works-four')) i = 3;
     else if (workClassNumber.classList.contains('works-five')) i = 4;
     else if (workClassNumber.classList.contains('works-six')) i = 5;
-
+  
     // Create the span element and append it to the title of the detail popup
     const detailTitle = document.createElement('span');
     detailTitle.innerHTML = projects[i].name;
     document.querySelector('.detail-item2').appendChild(detailTitle);
-
+  
     // Create the technologies element and append them to the detail popup
     projects[i].technologies.forEach((item) => {
       const detailTechnologies = document.createElement('li');
@@ -146,12 +146,13 @@ seeProject.forEach((element) => {
       detailTechnologies.innerHTML = item;
       document.querySelector('.technologies').appendChild(detailTechnologies);
     });
-
+  
     // Create the description element and append it to the detail popup
     const detailDescription = document.createElement('p');
     detailDescription.innerHTML = projects[i].description;
     document.querySelector('.detail-item4').appendChild(detailDescription);
-
+  
     detailPopup.classList.toggle('hide');
   });
+  
 });
