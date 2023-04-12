@@ -28,6 +28,7 @@ function showError(event) {
   setTimeout(() => {
     errorElement.textContent = '';
   }, 3000);
+
   
 }
 
