@@ -512,6 +512,7 @@ button:active {
   position: fixed;
   top: 0;
   overflow: auto;
+  box-sizing: border-box;
 }
 
 .popup-container {

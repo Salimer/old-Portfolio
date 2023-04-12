@@ -512,11 +512,12 @@ button:active {
   position: fixed;
   top: 0;
   overflow: auto;
+  box-sizing: border-box;
 }
 
 .popup-container {
   width: 91.47%;
-  min-height: 55rem;
+  min-height: 5rem;
   display: grid;
   grid-template-rows: auto auto auto auto;
   grid-template-columns: 1rem 1fr 1rem;
