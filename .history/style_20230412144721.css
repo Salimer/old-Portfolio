@@ -1047,7 +1047,7 @@ button:active {
   /* Detail popup */
   .detail-popup {
     grid-template-columns: 8rem auto 8rem;
-    grid-template-rows: 10rem auto 10rem;
+    grid-template-rows: 40rem auto rem;
     background-color: rgba(193, 199, 208, 0.5);
     backdrop-filter: blur(10px);
   }
