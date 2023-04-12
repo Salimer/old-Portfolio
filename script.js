@@ -28,7 +28,6 @@ function showError(event) {
   setTimeout(() => {
     errorElement.textContent = '';
   }, 3000);
-  
 }
 
 submit.addEventListener('click', showError);
