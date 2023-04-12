@@ -469,8 +469,6 @@ textarea::placeholder {
   cursor: pointer;
 }
 
-
-
 /* footer */
 footer {
   display: flex;
@@ -618,6 +616,8 @@ button:active {
   flex-direction: row;
   align-items: center;
 }
+
+
 
 @media (min-width: 768px) {
   body {

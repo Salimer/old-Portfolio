@@ -12,9 +12,9 @@ navItems.forEach((element) => {
   });
 });
 
-const errorElement = document.querySelector('.form-validation-message');
+const errorElement = document.querySelector('.form-validation-msg');
 const emailInput = document.querySelector('input[type="email"]');
-const submit = document.querySelector('#get-in-touch-button');
+const submit = document.querySelector('#btn-msg');
 
 function showError(event) {
   if (emailInput.value !== emailInput.value.toLowerCase()) {
@@ -32,24 +32,24 @@ function showError(event) {
 
 submit.addEventListener('click', showError);
 
-// const form = document.querySelector('#form');
-// // const emailInput = form.elements['mail'];
-// const emailInput = document.querySelector('#mail');
-// const errorElement = document.querySelector('.form-validation-message');
-// const submit = document.querySelector('#get-in-touch-button')
+const form = document.querySelector('#form');
+// const emailInput = form.elements['mail'];
+const emailInput = document.querySelector('#mail');
+const errorElement = document.querySelector('.form-validation-message');
+const submit = document.querySelector('#get-in-touch-button')
 
-// function showError (event) {
-//   if (emailInput.value !== emailInput.value.toLowerCase()) {
-//     errorElement.textContent = "The email address should be in lowercase.";
-//     event.preventDefault();
-//   }
+function showError (event) {
+  if (emailInput.value !== emailInput.value.toLowerCase()) {
+    errorElement.textContent = "The email address should be in lowercase.";
+    event.preventDefault();
+  }
 
-//   setTimeout(() => {
-//     errorElement.textContent = '';
-//   }, 3000)
-// }
+  setTimeout(() => {
+    errorElement.textContent = '';
+  }, 3000)
+}
 
-// submit.addEventListener('click', showError);
+submit.addEventListener('click', showError);
 
 
 
