@@ -92,6 +92,7 @@ projects.forEach((project) => {
   const seeProjectButton = document.createElement('button');
   seeProjectButton.classList.add('see-project', 'green-button');
   seeProjectButton.innerHTML = 'See project';
+  seeProjectButton.setAttribute('type', 'button'); // specify the type attribute
   cardBottomHalf.appendChild(seeProjectButton);
 
   // Append the container element to the div with class "works"
