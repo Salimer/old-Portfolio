@@ -28,6 +28,7 @@ function showError(event) {
     errorElement.textContent = '*Please enter the required information.';
     event.preventDefault();
   }
+  
   setTimeout(() => {
     errorElement.textContent = '';
   }, 3000);
@@ -108,4 +109,8 @@ reset.addEventListener('click', () => {
     }, 3000);
   }
   reset.classList.remove('show');
+});
+
+submit.addEventListener('click', () => {
+  
 });

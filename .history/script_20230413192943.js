@@ -28,6 +28,12 @@ function showError(event) {
     errorElement.textContent = '*Please enter the required information.';
     event.preventDefault();
   }
+  if (localStorage.formStorage) {
+    errorElement.textContent = 'Entries saved to continue later';
+    setTimeout(() => {
+      errorElement.textContent = '';
+    }, 3000);
+  }
   setTimeout(() => {
     errorElement.textContent = '';
   }, 3000);
@@ -108,4 +114,8 @@ reset.addEventListener('click', () => {
     }, 3000);
   }
   reset.classList.remove('show');
+});
+
+submit.addEventListener('click', () => {
+  
 });

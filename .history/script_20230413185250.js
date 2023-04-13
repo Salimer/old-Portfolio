@@ -109,3 +109,12 @@ reset.addEventListener('click', () => {
   }
   reset.classList.remove('show');
 });
+
+submit.addEventListener('click', () => {
+  if (localStorage.formStorage) {
+    errorElement.textContent = 'Entries saved to continue later';
+    setTimeout(() => {
+      errorElement.textContent = '';
+    }, 3000);
+  }
+});
