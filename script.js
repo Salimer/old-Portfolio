@@ -28,7 +28,7 @@ function showError(event) {
     errorElement.textContent = '*Please enter the required information.';
     event.preventDefault();
   }
-  setTimeout(() => {
+  setTimeeout(() => {
     errorElement.textContent = '';
   }, 3000);
 }
@@ -51,7 +51,7 @@ const formObj = {
 };
 
 // check the local storage obj
-if (localStorage.formStorage) {
+if (!localStorage.formStorage) {
   formObj.fullName = JSON.parse(localStorage.formStorage).fullName;
   formObj.firstName = JSON.parse(localStorage.formStorage).firstName;
   formObj.lastName = JSON.parse(localStorage.formStorage).lastName;
