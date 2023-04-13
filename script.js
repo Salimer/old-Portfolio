@@ -1,4 +1,4 @@
-// Navigation menu popup 
+// Navigation menu popup
 const hamburger = document.querySelector('#nav');
 const div = document.querySelector('.mobile-menu');
 const navItems = document.querySelectorAll('.mobile-menu li');
@@ -42,16 +42,15 @@ const lastNameInput = form.last_name;
 const messageInput = form.user_message;
 const reset = document.querySelector('#reset');
 
-
 const formObj = {
-  fullName:"",
-  firstName: "",
-  lastName: "",
-  email: "",
-  message: ""
-}
+  fullName: '',
+  firstName: '',
+  lastName: '',
+  email: '',
+  message: '',
+};
 
-// check the local storage obj 
+// check the local storage obj
 if (localStorage.formStorage) {
   formObj.fullName = JSON.parse(localStorage.formStorage).fullName;
   formObj.firstName = JSON.parse(localStorage.formStorage).firstName;
@@ -62,48 +61,48 @@ if (localStorage.formStorage) {
   firstNameInput.value = formObj.firstName;
   emailInput.value = formObj.email;
   messageInput.value = formObj.message;
-  if ((fullNameInput.value !== "" || firstNameInput.value !== "" || lastNameInput.value !== "" || emailInput.value !== "" || messageInput.value !== "")) reset.classList.add('show');
-};
+  if ((fullNameInput.value !== '' || firstNameInput.value !== '' || lastNameInput.value !== '' || emailInput.value !== '' || messageInput.value !== '')) reset.classList.add('show');
+}
 
-fullNameInput.addEventListener("input", () => {
+fullNameInput.addEventListener('input', () => {
   formObj.fullName = fullNameInput.value;
   localStorage.setItem('formStorage', JSON.stringify(formObj));
-  if (fullNameInput.value !== "") reset.classList.add('show');
-  else if (fullNameInput.value === "" && firstNameInput.value === "" && lastNameInput.value === "" && emailInput.value === "" && messageInput.value === "") reset.classList.remove('show');
+  if (fullNameInput.value !== '') reset.classList.add('show');
+  else if (fullNameInput.value === '' && firstNameInput.value === '' && lastNameInput.value === '' && emailInput.value === '' && messageInput.value === '') reset.classList.remove('show');
 });
 
-firstNameInput.addEventListener("input", () => {
+firstNameInput.addEventListener('input', () => {
   formObj.firstName = firstNameInput.value;
   localStorage.setItem('formStorage', JSON.stringify(formObj));
-  if (firstNameInput.value !== "") reset.classList.add('show');
-  else if (fullNameInput.value === "" && firstNameInput.value === "" && lastNameInput.value === "" && emailInput.value === "" && messageInput.value === "") reset.classList.remove('show');
+  if (firstNameInput.value !== '') reset.classList.add('show');
+  else if (fullNameInput.value === '' && firstNameInput.value === '' && lastNameInput.value === '' && emailInput.value === '' && messageInput.value === '') reset.classList.remove('show');
 });
 
-lastNameInput.addEventListener("input", () => {
+lastNameInput.addEventListener('input', () => {
   formObj.lastName = lastNameInput.value;
   localStorage.setItem('formStorage', JSON.stringify(formObj));
-  if (lastNameInput.value !== "") reset.classList.add('show');
-  else if (fullNameInput.value === "" && firstNameInput.value === "" && lastNameInput.value === "" && emailInput.value === "" && messageInput.value === "") reset.classList.remove('show');
+  if (lastNameInput.value !== '') reset.classList.add('show');
+  else if (fullNameInput.value === '' && firstNameInput.value === '' && lastNameInput.value === '' && emailInput.value === '' && messageInput.value === '') reset.classList.remove('show');
 });
 
-emailInput.addEventListener("input", () => {
+emailInput.addEventListener('input', () => {
   formObj.email = emailInput.value;
   localStorage.setItem('formStorage', JSON.stringify(formObj));
-  if (emailInput.value !== "") reset.classList.add('show');
-  else if (fullNameInput.value === "" && firstNameInput.value === "" && lastNameInput.value === "" && emailInput.value === "" && messageInput.value === "") reset.classList.remove('show');
+  if (emailInput.value !== '') reset.classList.add('show');
+  else if (fullNameInput.value === '' && firstNameInput.value === '' && lastNameInput.value === '' && emailInput.value === '' && messageInput.value === '') reset.classList.remove('show');
 });
 
-messageInput.addEventListener("input", () => {
+messageInput.addEventListener('input', () => {
   formObj.message = messageInput.value;
   localStorage.setItem('formStorage', JSON.stringify(formObj));
-  if (messageInput.value !== "") reset.classList.add('show');
-  else if (fullNameInput.value === "" && firstNameInput.value === "" && lastNameInput.value === "" && emailInput.value === "" && messageInput.value === "") reset.classList.remove('show');
-})
+  if (messageInput.value !== '') reset.classList.add('show');
+  else if (fullNameInput.value === '' && firstNameInput.value === '' && lastNameInput.value === '' && emailInput.value === '' && messageInput.value === '') reset.classList.remove('show');
+});
 
-reset.addEventListener("click", () => {
+reset.addEventListener('click', () => {
   if (localStorage.formStorage) {
     localStorage.clear();
-    errorElement.textContent = 'Form data successfully cleared from local storage'
+    errorElement.textContent = 'Form data successfully cleared from local storage';
     setTimeout(() => {
       errorElement.textContent = '';
     }, 3000);
@@ -113,7 +112,7 @@ reset.addEventListener("click", () => {
 
 submit.addEventListener('click', () => {
   if (localStorage.formStorage) {
-    errorElement.textContent = 'data saved'
+    errorElement.textContent = 'data saved';
     setTimeout(() => {
       errorElement.textContent = '';
     }, 3000);
