@@ -1085,6 +1085,10 @@ button:active {
     display: block;
     grid-area: x;
     justify-self: end;
+    curs
+  }
+
+  #detail-popup-x-desktop {
     cursor: pointer;
   }
 

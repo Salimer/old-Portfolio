@@ -104,7 +104,6 @@ nav ul {
   height: 40px;
   right: 24px;
   border-radius: 8px;
-  cursor: pointer;
 }
 
 .header-illustration-mobile {
@@ -569,7 +568,7 @@ button:active {
   top: 1.375rem;
   right: 2rem;
   position: absolute;
-  cursor: pointer;
+  
 }
 
 .detail-item2 {
@@ -1085,7 +1084,6 @@ button:active {
     display: block;
     grid-area: x;
     justify-self: end;
-    cursor: pointer;
   }
 
   #detail-popup-x {

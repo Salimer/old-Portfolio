@@ -549,6 +549,7 @@ button:active {
 
 .detail-item0 {
   display: none;
+  curs
 }
 
 .detail-item1 {
@@ -1085,7 +1086,6 @@ button:active {
     display: block;
     grid-area: x;
     justify-self: end;
-    cursor: pointer;
   }
 
   #detail-popup-x {

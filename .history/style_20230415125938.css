@@ -1088,6 +1088,10 @@ button:active {
     cursor: pointer;
   }
 
+  #detail-popup-x-desktop {
+    cursor: pointer;
+  }
+
   #detail-popup-x {
     display: none;
   }
