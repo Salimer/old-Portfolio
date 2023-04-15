@@ -296,6 +296,7 @@ form li + li {
 .about-me-supporting-Text {
   max-width: 327px;
   height: 164px;
+  top: 382px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;

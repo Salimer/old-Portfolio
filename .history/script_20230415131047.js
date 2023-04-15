@@ -25,7 +25,7 @@ function showError(event) {
     event.preventDefault();
   }
   if ((((fullNameInput.value !== '' || (firstNameInput.value === '' || lastNameInput.value === '')) || (emailInput.value === '' || messageInput.value === ''))) && (((fullNameInput.value === '' || (firstNameInput.value !== '' || lastNameInput.value !== '')) || (emailInput.value === '' || messageInput.value === '')))) {
-    errorElement.textContent = '*Please fill all fields ;)';
+    errorElement.textContent = '*Please fill all fields :).';
     event.preventDefault();
   } 
   setTimeout(() => {

@@ -289,13 +289,14 @@ form li + li {
     background-repeat: no-repeat;
     background-position-x: left;
     background-position-y: bottom;
-    padding-top: 2rem;
+    margin
   }
 }
 
 .about-me-supporting-Text {
   max-width: 327px;
   height: 164px;
+  top: 382px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -876,13 +877,14 @@ button:active {
   .about-me-supporting-Text {
     max-width: 810px;
     height: auto;
+    top: 382px;
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 32px;
     text-align: center;
-    padding-bottom: 2rem;
+    padding-bottom: 3rem;
     margin: 0 12.5rem;
   }
 
