@@ -24,10 +24,10 @@ function showError(event) {
     errorElement.textContent = '*The email address should be in lowercase.';
     event.preventDefault();
   }
-  if ((((fullNameInput.value !== '' || (firstNameInput.value === '' || lastNameInput.value === '')) || (emailInput.value === '' || messageInput.value === ''))) && (((fullNameInput.value === '' || (firstNameInput.value !== '' || lastNameInput.value !== '')) || (emailInput.value === '' || messageInput.value === '')))) {
+  if (((fullNameInput.value !== '' || (firstNameInput.value === '' && lastNameInput.value === '')) && (emailInput.value === '' || messageInput.value === ''))) {
     errorElement.textContent = '*Please enter the required information.';
     event.preventDefault();
-  } 
+  }
   setTimeout(() => {
     errorElement.textContent = '';
   }, 3000);
