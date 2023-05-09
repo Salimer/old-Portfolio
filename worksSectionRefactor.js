@@ -158,7 +158,6 @@ seeProject.forEach((element) => {
     const seeSource = document.querySelector('#see-source');
     seeLive.setAttribute('href', projects[i].linkToLiveVersion);
     seeSource.setAttribute('href', projects[i].linkToSource);
-    
     // Add featured image
     const detailItem1 = document.querySelector('.detail-item1');
     detailItem1.style.backgroundImage = `url(${projects[i].featuredImage})`;

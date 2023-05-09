@@ -1,6 +1,3 @@
-// Form initialisations
-
-
 // Navigation menu popup
 const hamburger = document.querySelector('#nav');
 const div = document.querySelector('.mobile-menu');
