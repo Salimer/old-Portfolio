@@ -1,9 +1,5 @@
 // Form initialisations
-const fullNameInput = form.full_name;
-const firstNameInput = form.first_name;
-const lastNameInput = form.last_name;
-const messageInput = form.user_message;
-const reset = document.querySelector('#reset');
+
 
 // Navigation menu popup
 const hamburger = document.querySelector('#nav');
@@ -22,6 +18,11 @@ navItems.forEach((element) => {
 
 // Form validation
 const form = document.querySelector('#form');
+const fullNameInput = form.full_name;
+const firstNameInput = form.first_name;
+const lastNameInput = form.last_name;
+const messageInput = form.user_message;
+const reset = document.querySelector('#reset');
 const errorElement = document.querySelector('.form-validation-message');
 const emailInput = form.elements.user_email;
 const submit = document.querySelector('#get-in-touch-button');
