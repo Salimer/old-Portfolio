@@ -547,10 +547,7 @@ button:active {
   box-sizing: border-box;
 }
 
-.detail-a-tag {
-  text-decoration: none;
-  color: white;
-}
+.detail
 
 .detail-item0 {
   display: none;

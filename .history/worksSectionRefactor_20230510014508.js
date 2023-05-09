@@ -1,11 +1,11 @@
 const projects = [
   {
-    featuredImage: 'Assets/projects/project1/desktoptop.png',
+    featuredImage: 'Assets/detailTop.svg',
     name: 'RLCS event<br>landing page',
     technologies: ['BootStrap', 'CSS', 'JavaScript'],
-    description: 'RLCS landing page is a project to market, sell tickets and more about a hypotetical event of Rocket League. The featured teams section shows full dynamic elements created using javascript in the desktop version. while only shows 2 elements and a user can click on see more to expand the list. Built with Bootstrap, CSS and JavaScript.',
-    linkToLiveVersion: 'https://salimer.github.io/RLCS-event-landing-page/',
-    linkToSource: 'https://github.com/Salimer/RLCS-event-landing-page',
+    description: "RLCS landing page is a project to market, sell tickets and more about a hypotetical event of Rocket League. The featured teams section shows full dynamic elements created using javascript in the desktop version. while only shows 2 elements and a user can click on see more to expand the list. Built with Bootstrap, CSS and JavaScript.",
+    linkToLiveVersion: 'https://youtu.be/dQw4w9WgXcQ',
+    linkToSource: 'https://youtu.be/dQw4w9WgXcQ',
   },
   {
     featuredImage: 'Assets/detailTop.svg',
@@ -155,12 +155,7 @@ seeProject.forEach((element) => {
 
     // Add the see more and see source links
     const seeLive = document.querySelector('#see-live');
-    const seeSource = document.querySelector('#see-source');
-    seeLive.setAttribute('href', projects[i].linkToLiveVersion);
-    seeSource.setAttribute('href', projects[i].linkToSource);
-    // Add featured image
-    const detailItem1 = document.querySelector('.detail-item1');
-    detailItem1.style.backgroundImage = `url(${projects[i].featuredImage})`;
+    const seeSource = 
 
     detailPopup.classList.toggle('hide');
   });
