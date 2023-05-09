@@ -1,6 +1,6 @@
 const projects = [
   {
-    featuredImage: 'Assets/detailTop.svg',
+    featuredImage: 'Assets/projects/project1/desktoptop.png',
     name: 'RLCS event<br>landing page',
     technologies: ['BootStrap', 'CSS', 'JavaScript'],
     description: "RLCS landing page is a project to market, sell tickets and more about a hypotetical event of Rocket League. The featured teams section shows full dynamic elements created using javascript in the desktop version. while only shows 2 elements and a user can click on see more to expand the list. Built with Bootstrap, CSS and JavaScript.",
@@ -158,6 +158,11 @@ seeProject.forEach((element) => {
     const seeSource = document.querySelector('#see-source');
     seeLive.setAttribute('href', projects[i].linkToLiveVersion);
     seeSource.setAttribute('href', projects[i].linkToSource);
+
+    // Add featured image 
+    const detailItem1 = document.querySelector('.detail-item1');
+    detailItem1.style.backgroundImage = `url(${projects[i].featuredImage})`;
+
 
     detailPopup.classList.toggle('hide');
   });
