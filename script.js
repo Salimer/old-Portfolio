@@ -1,3 +1,10 @@
+// Form initialisations
+const fullNameInput = form.full_name;
+const firstNameInput = form.first_name;
+const lastNameInput = form.last_name;
+const messageInput = form.user_message;
+const reset = document.querySelector('#reset');
+
 // Navigation menu popup
 const hamburger = document.querySelector('#nav');
 const div = document.querySelector('.mobile-menu');
@@ -27,7 +34,7 @@ function showError(event) {
   if ((((fullNameInput.value !== '' || (firstNameInput.value === '' || lastNameInput.value === '')) || (emailInput.value === '' || messageInput.value === ''))) && (((fullNameInput.value === '' || (firstNameInput.value !== '' || lastNameInput.value !== '')) || (emailInput.value === '' || messageInput.value === '')))) {
     errorElement.textContent = '*Please fill all fields ;)';
     event.preventDefault();
-  } 
+  }
   setTimeout(() => {
     errorElement.textContent = '';
   }, 3000);
@@ -36,12 +43,6 @@ function showError(event) {
 submit.addEventListener('click', showError);
 
 // SAVE FORM INPUT IN LOCAL STORAGE
-const fullNameInput = form.full_name;
-const firstNameInput = form.first_name;
-const lastNameInput = form.last_name;
-const messageInput = form.user_message;
-const reset = document.querySelector('#reset');
-
 const formObj = {
   fullName: '',
   firstName: '',
