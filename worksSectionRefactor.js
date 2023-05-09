@@ -3,7 +3,7 @@ const projects = [
     featuredImage: 'Assets/projects/project1/desktoptop.png',
     name: 'RLCS event<br>landing page',
     technologies: ['BootStrap', 'CSS', 'JavaScript'],
-    description: "RLCS landing page is a project to market, sell tickets and more about a hypotetical event of Rocket League. The featured teams section shows full dynamic elements created using javascript in the desktop version. while only shows 2 elements and a user can click on see more to expand the list. Built with Bootstrap, CSS and JavaScript.",
+    description: 'RLCS landing page is a project to market, sell tickets and more about a hypotetical event of Rocket League. The featured teams section shows full dynamic elements created using javascript in the desktop version. while only shows 2 elements and a user can click on see more to expand the list. Built with Bootstrap, CSS and JavaScript.',
     linkToLiveVersion: 'https://salimer.github.io/RLCS-event-landing-page/',
     linkToSource: 'https://github.com/Salimer/RLCS-event-landing-page',
   },
@@ -162,7 +162,6 @@ seeProject.forEach((element) => {
     // Add featured image 
     const detailItem1 = document.querySelector('.detail-item1');
     detailItem1.style.backgroundImage = `url(${projects[i].featuredImage})`;
-
 
     detailPopup.classList.toggle('hide');
   });
