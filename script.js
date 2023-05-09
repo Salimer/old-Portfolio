@@ -15,6 +15,11 @@ navItems.forEach((element) => {
 
 // Form validation
 const form = document.querySelector('#form');
+const fullNameInput = form.full_name;
+const firstNameInput = form.first_name;
+const lastNameInput = form.last_name;
+const messageInput = form.user_message;
+const reset = document.querySelector('#reset');
 const errorElement = document.querySelector('.form-validation-message');
 const emailInput = form.elements.user_email;
 const submit = document.querySelector('#get-in-touch-button');
@@ -27,7 +32,7 @@ function showError(event) {
   if ((((fullNameInput.value !== '' || (firstNameInput.value === '' || lastNameInput.value === '')) || (emailInput.value === '' || messageInput.value === ''))) && (((fullNameInput.value === '' || (firstNameInput.value !== '' || lastNameInput.value !== '')) || (emailInput.value === '' || messageInput.value === '')))) {
     errorElement.textContent = '*Please fill all fields ;)';
     event.preventDefault();
-  } 
+  }
   setTimeout(() => {
     errorElement.textContent = '';
   }, 3000);
@@ -36,12 +41,6 @@ function showError(event) {
 submit.addEventListener('click', showError);
 
 // SAVE FORM INPUT IN LOCAL STORAGE
-const fullNameInput = form.full_name;
-const firstNameInput = form.first_name;
-const lastNameInput = form.last_name;
-const messageInput = form.user_message;
-const reset = document.querySelector('#reset');
-
 const formObj = {
   fullName: '',
   firstName: '',
